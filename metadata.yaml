@@ -1,4 +1,4 @@
 homepage: "https://www.viantinc.com/"
 versions:
-  - sha: 7973683bcfa4762dc9c0b3a8d06c196d039b3e38
+  - sha: 64a124ce1b9af9a6e7d08eef76a136a44764159d
     changeNotes: Initial release.
