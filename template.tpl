@@ -545,7 +545,7 @@ for (var j = 1; j <= 10; j++) {
   var inc = !!data[cbKey];
 }
 
-const configuredPageUrl = makeString('{{Page URL}}');
+const configuredPageUrl = makeString(getUrl('href') || '');
 const referrerUrl = makeString(getUrl('referrer') || '');
 let pageUrl = configuredPageUrl || referrerUrl;
 let droppedUrlReason = '';
